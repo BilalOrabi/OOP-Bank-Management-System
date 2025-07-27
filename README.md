@@ -8,58 +8,52 @@ A console-based bank management system developed in C++ by mixing **Object-Orien
 
 The project is organized into logical layers and menus for better readability and scalability:
 
-├── 🧠 Business Logic Layer
-│ ├── 🏦 clsBankClient.h
-│ ├── 💱 clsCurrency.h
-│ ├── 👤 clsPerson.h
-│ ├── 🔐 clsUser.h
-│ ├── 🌐 Global.h
-│ └── 🧬 InterfaceCommunication.h
+- 🎯 **Business Logic Layer**
+  - 🏦 `clsBankClient.h`
+  - 💱 `clsCurrency.h`
+  - 👤 `clsPerson.h`
+  - 🔐 `clsUser.h`
+  - 🌐 `Global.h`
+  - 🔧 `InterfaceCommunication.h`
 
+- 🏠 **Main Menu Screens Layer**
+  - 📜 `clsMainScreen.h`
+  - 👥 `clsClientListScreen.h`
+  - ➕ `clsAddNewClientScreen.h`
+  - ❌ `clsDeleteClientScreen.h`
+  - 🔍 `clsFindClientScreen.h`
+  - 📝 `clsUpdateClientScreen.h`
 
-├── 🏠 Main Menu Screens Layer
-│ ├── 📜 clsMainScreen.h
-│ ├── 👥 clsClientListScreen.h
-│ ├── ➕ clsAddNewClientScreen.h
-│ ├── ❌ clsDeleteClientScreen.h
-│ ├── 🔍 clsFindClientScreen.h
-│ └── 📝 clsUpdateClientScreen.h
+- 💲 **Currencies Menu**
+  - 📋 `clsCurrenciesListScreen.h`
+  - 📊 `clsCurrencyCalculatorScreen.h`
+  - 🔁 `clsCurrencyExchangeMainScreen.h`
+  - 🔎 `clsFindCurrencyScreen.h`
+  - 🧾 `clsUpdateCurrencyRateScreen.h`
 
+- 💳 **Transactions Menu Screens**
+  - 💰 `clsDepositScreen.h`
+  - 🧾 `clsTotalBalancesScreen.h`
+  - 📄 `clsTransferLogScreen.h`
+  - 🔁 `clsTransferScreen.h`
+  - 💸 `clsWithdrawScreen.h`
 
-├── 💲 Currencies Menu
-│ ├── 📋 clsCurrenciesListScreen.h
-│ ├── 🧮 clsCurrencyCalculatorScreen.h
-│ ├── 🔁 clsCurrencyExchangeMainScreen.h
-│ ├── 🔎 clsFindCurrencyScreen.h
-│ └── 🧾 clsUpdateCurrencyRateScreen.h
+- 👤 **Users Menu Screens**
+  - ➕ `clsAddNewUserScreen.h`
+  - ❌ `clsDeleteUserScreen.h`
+  - 🔍 `clsFindUserScreen.h`
+  - 👥 `clsListUsersScreen.h`
+  - 🔑 `clsLoginRegisterScreen.h`
+  - ⚙️ `clsManageUsersScreen.h`
+  - 📝 `clsUpdateUserScreen.h`
 
+- 🧰 **Utility Tools**
+  - 📅 `clsDate.h`
+  - 🛡️ `clsInputValidate.h`
+  - 📆 `clsPeriod.h`
+  - 📝 `clsString.h`
+  - 🧠 `clsUtil.h`
 
-├── 💳 Transactions Menu Screens
-│ ├── 💰 clsDepositScreen.h
-│ ├── 🧾 clsTotalBalancesScreen.h
-│ ├── 📜 clsTransferLogScreen.h
-│ ├── 🔁 clsTransferScreen.h
-│ └── 💸 clsWithdrawScreen.h
-
-
-├── 👤 Users Menu Screens
-│ ├── ➕ clsAddNewUserScreen.h
-│ ├── ❌ clsDeleteUserScreen.h
-│ ├── 🔍 clsFindUserScreen.h
-│ ├── 👥 clsListUsersScreen.h
-│ ├── 🔑 clsLoginRegisterScreen.h
-│ ├── ⚙️ clsManageUsersScreen.h
-│ └── 📝 clsUpdateUserScreen.h
-
-
-├── 🧰 Utility Tools
-│ ├── 📅 clsDate.h
-│ ├── 🛡️ clsInputValidate.h
-│ ├── 📆 clsPeriod.h
-│ ├── 🔤 clsString.h
-│ └── 🧠 clsUtil.h
-
----
 
 ## 🎯 Features
 
