@@ -53,8 +53,8 @@ The project is organized into logical layers and menus for better readability an
   - 📆 `clsPeriod.h`
   - 📝 `clsString.h`
   - 🧠 `clsUtil.h`
-
-  
+ 
+  - 
   - 🗃️ Data Files
 
 This project uses `.txt` files to simulate a basic database:
