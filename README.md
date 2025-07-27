@@ -15,7 +15,8 @@ The project is organized into logical layers and menus for better readability an
 │ ├── 🔐 clsUser.h
 │ ├── 🌐 Global.h
 │ └── 🧬 InterfaceCommunication.h
-│
+
+
 ├── 🏠 Main Menu Screens Layer
 │ ├── 📜 clsMainScreen.h
 │ ├── 👥 clsClientListScreen.h
@@ -23,21 +24,24 @@ The project is organized into logical layers and menus for better readability an
 │ ├── ❌ clsDeleteClientScreen.h
 │ ├── 🔍 clsFindClientScreen.h
 │ └── 📝 clsUpdateClientScreen.h
-│
+
+
 ├── 💲 Currencies Menu
 │ ├── 📋 clsCurrenciesListScreen.h
 │ ├── 🧮 clsCurrencyCalculatorScreen.h
 │ ├── 🔁 clsCurrencyExchangeMainScreen.h
 │ ├── 🔎 clsFindCurrencyScreen.h
 │ └── 🧾 clsUpdateCurrencyRateScreen.h
-│
+
+
 ├── 💳 Transactions Menu Screens
 │ ├── 💰 clsDepositScreen.h
 │ ├── 🧾 clsTotalBalancesScreen.h
 │ ├── 📜 clsTransferLogScreen.h
 │ ├── 🔁 clsTransferScreen.h
 │ └── 💸 clsWithdrawScreen.h
-│
+
+
 ├── 👤 Users Menu Screens
 │ ├── ➕ clsAddNewUserScreen.h
 │ ├── ❌ clsDeleteUserScreen.h
@@ -46,7 +50,8 @@ The project is organized into logical layers and menus for better readability an
 │ ├── 🔑 clsLoginRegisterScreen.h
 │ ├── ⚙️ clsManageUsersScreen.h
 │ └── 📝 clsUpdateUserScreen.h
-│
+
+
 ├── 🧰 Utility Tools
 │ ├── 📅 clsDate.h
 │ ├── 🛡️ clsInputValidate.h
