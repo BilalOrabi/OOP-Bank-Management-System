@@ -54,8 +54,9 @@ The project is organized into logical layers and menus for better readability an
   - 📝 `clsString.h`
   - 🧠 `clsUtil.h`
  
-  - 
-  ##🗃️ Data Files
+
+
+## 🗃️ Data Files
 
 This project uses `.txt` files to simulate a basic database:
 - `Users.txt` — stores user login data
