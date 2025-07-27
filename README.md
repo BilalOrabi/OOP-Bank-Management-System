@@ -53,7 +53,9 @@ The project is organized into logical layers and menus for better readability an
   - 📆 `clsPeriod.h`
   - 📝 `clsString.h`
   - 🧠 `clsUtil.h`
- 
+
+ - 🔐 **Login**
+  - 🔑 `clsLoginScreen.h` – Handles user authentication and login screen logic.
 
 
 ## 🗃️ Data Files
@@ -61,6 +63,7 @@ The project is organized into logical layers and menus for better readability an
 This project uses `.txt` files to simulate a basic database:
 - `Users.txt` — stores user login data
 - `Clients.txt` — stores client banking details
+- `Currency.txt` – Currency exchange rates
 - `LoginHistory.txt` — logs user logins
 
 These files are located in the `/Data/` folder.
